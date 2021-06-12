@@ -1,0 +1,8 @@
+package com.hu.vaccine.service;
+
+import com.hu.vaccine.model.Patient;
+
+public interface DashboardService {
+
+	void register(Patient patient);
+}

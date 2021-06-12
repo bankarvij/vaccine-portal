@@ -1,0 +1,73 @@
+
+<div class="container">
+    <div class="mb-4"></div>
+    <div *ngIf="register === 'true'; else confirmation" class="center">
+        <h3 class="mt-4">Book Appointment</h3>
+        <form [formGroup]="registerForm">
+            <div class="row mt-4">        
+                <div class="col-3">
+                    <label>First Name:</label>
+                </div>
+                <div class="col-3">
+                    <input type="text" formControlName="firstName" name="first_name" placeholder="First Name">
+                </div>         
+            </div>
+            <div class="row mt-4">        
+                <div class="col-3">
+                    <label>Last Name:</label>
+                </div>
+                <div class="col-3">
+                    <input type="text" formControlName="lastName"name="last_name" placeholder="Last Name">
+                </div>         
+            </div>
+            <div class="row mt-4">        
+                <div class="col-3">
+                    <label>Dob:</label>
+                </div>
+                <div class="col-3">
+                    <input type="text" formControlName="dob" name="dob" placeholder="MM/DD/YYYY">
+                </div>         
+            </div>
+            <div class="row mt-4">        
+                <div class="col-3">
+                    <label>Vaccine:</label>
+                </div>
+                <div class="col-3">
+                    <select name="vaccine" formControlName="vaccine" style="width: 100px;">
+                        <option>pFizer</option>
+                        <option>Moderna</option>
+                    </select>
+                </div>         
+            </div>
+    
+            <div class="row mt-4">        
+                <div class="col-3">
+                    <label>Appointment Date:</label>
+                </div>
+                <div class="col-3">
+                    <input type="text" formControlName="appointmentDate" name="apptDate" placeholder="MM/DD/YYYY">
+                </div>         
+            </div>        
+    
+            <div class="row mt-4">        
+                <div class="col-6">
+                    Your second dose will be on: {{ secondDose | date: 'MM/dd/yyyy'}}
+                </div>
+            </div>
+            
+            <div class="row mt-4 mb-4 d-flex justify-content-center">
+                <div class="col-2">
+                    <button type="submit" class="btn btn-primary" (click)="submit()">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<ng-template #confirmation>
+    <div class="center">
+        <h3 class="mt-4">Appointment confirmed</h3>
+        <div class="mt-2">First Dose on: {{ appointmentDate.value }}</div>
+        <div class="mb-4">Second Dose on: {{ secondDose | date: 'MM/dd/yyyy' }}</div>
+    </div>
+</ng-template>

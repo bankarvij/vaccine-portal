@@ -1,0 +1,17 @@
+
+.dashboard-table {
+    margin: auto;
+    width: 50%;
+    margin: 20px;
+}
+
+.search-size {
+    width: 300px;
+}
+
+.center {
+    
+    width: 50%;
+    border: 2px solid gray;
+    padding-left: 40px;
+}

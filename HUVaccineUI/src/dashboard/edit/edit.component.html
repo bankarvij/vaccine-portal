@@ -1,0 +1,58 @@
+
+<div class="container">
+    <div class="mb-4"></div>
+    <div class="center">
+        <h3 class="mt-4">Update Vaccination!!!</h3>
+        <form [formGroup]="form">
+            <div class="row mt-4">        
+                <div class="col-3">
+                    <label>First Name:</label>
+                </div>
+                <div class="col-3">
+                    <label>{{ patient.firstName }}</label>
+                </div>         
+            </div>
+            <div class="row mt-4">        
+                <div class="col-3">
+                    <label>Last Name:</label>
+                </div>
+                <div class="col-3">
+                    <label>{{ patient.lastName }}</label>
+                </div>         
+            </div>
+            <div class="row mt-4">        
+                <div class="col-3">
+                    <label>Dob</label>
+                </div>
+                <div class="col-3">
+                    <label>{{ patient.dob }}</label>
+                </div>         
+            </div>
+            <div class="row mt-4">        
+                <div class="col-3">
+                    <label>Vaccine</label>
+                </div>
+                <div class="col-3">
+                    <label>{{ patient.vaccine }}</label>
+                </div>         
+            </div>
+            <div class="row mt-4">        
+                <div class="col-3">
+                    <label>Dose</label>
+                </div>
+                <div class="col-3">
+                    <select name="dose" formControlName="dose" style="width: 100px;">
+                        <option [selected]="patient.dose === '1'">1</option>
+                        <option [selected]="patient.dose === '2'">2</option>
+                    </select>
+                </div>         
+            </div>
+            
+            <div class="row mt-4 mb-4 d-flex justify-content-center">
+                <div class="col-2">
+                    <button type="submit" class="btn btn-primary" (click)="submit()">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

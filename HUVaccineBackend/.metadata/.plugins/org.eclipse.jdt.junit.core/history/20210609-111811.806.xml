@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginServiceTests" project="vaccine" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.hu.vaccine.login.service.LoginServiceTests" time="0.045" displayname="LoginServiceTests" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.login.service.LoginServiceTests]">
+    <testcase name="testAuthenticate" classname="com.hu.vaccine.login.service.LoginServiceTests" time="0.04" displayname="testAuthenticate()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.login.service.LoginServiceTests]/[method:testAuthenticate()]"/>
+    <testcase name="testAuthenticateInvalidUser" classname="com.hu.vaccine.login.service.LoginServiceTests" time="0.004" displayname="testAuthenticateInvalidUser()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.login.service.LoginServiceTests]/[method:testAuthenticateInvalidUser()]"/>
+  </testsuite>
+</testrun>

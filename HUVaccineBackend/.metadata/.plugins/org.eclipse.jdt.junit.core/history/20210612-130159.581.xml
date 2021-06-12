@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginRepositoryTests" project="vaccine" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.hu.vaccine.login.dao.LoginRepositoryTests" time="0.428" displayname="LoginRepositoryTests" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.login.dao.LoginRepositoryTests]">
+    <testcase name="testFindByUsernameAndPassword" classname="com.hu.vaccine.login.dao.LoginRepositoryTests" time="0.411" displayname="testFindByUsernameAndPassword()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.login.dao.LoginRepositoryTests]/[method:testFindByUsernameAndPassword()]"/>
+    <testcase name="testFindByUsernameAndPassword1" classname="com.hu.vaccine.login.dao.LoginRepositoryTests" time="0.016" displayname="testFindByUsernameAndPassword1()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.login.dao.LoginRepositoryTests]/[method:testFindByUsernameAndPassword1()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PatientRepositoryTests" project="vaccine" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.hu.vaccine.repository.PatientRepositoryTests" time="0.343" displayname="PatientRepositoryTests" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.repository.PatientRepositoryTests]">
+    <testcase name="testSave" classname="com.hu.vaccine.repository.PatientRepositoryTests" time="0.216" displayname="testSave()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.repository.PatientRepositoryTests]/[method:testSave()]"/>
+    <testcase name="testFindByAll" classname="com.hu.vaccine.repository.PatientRepositoryTests" time="0.126" displayname="testFindByAll()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.repository.PatientRepositoryTests]/[method:testFindByAll()]"/>
+  </testsuite>
+</testrun>

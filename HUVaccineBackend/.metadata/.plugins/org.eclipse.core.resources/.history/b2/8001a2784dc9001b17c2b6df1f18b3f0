@@ -1,0 +1,5 @@
+package com.hu.vaccine.controller;
+
+public class LoginControllerTests {
+
+}

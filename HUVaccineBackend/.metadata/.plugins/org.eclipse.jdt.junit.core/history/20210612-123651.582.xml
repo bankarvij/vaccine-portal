@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginControllerTests.testAuthenticateWithoutPassword" project="vaccine" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.hu.vaccine.controller.LoginControllerTests" time="0.172" displayname="LoginControllerTests" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.controller.LoginControllerTests]">
+    <testcase name="testAuthenticateWithoutPassword" classname="com.hu.vaccine.controller.LoginControllerTests" time="0.172" displayname="testAuthenticateWithoutPassword()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.controller.LoginControllerTests]/[method:testAuthenticateWithoutPassword()]"/>
+  </testsuite>
+</testrun>

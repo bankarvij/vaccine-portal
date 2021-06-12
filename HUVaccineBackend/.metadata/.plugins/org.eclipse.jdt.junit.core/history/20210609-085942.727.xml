@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DashboardServiceTests" project="vaccine" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.hu.vaccine.service.DashboardServiceTests" time="0.051" displayname="DashboardServiceTests" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.service.DashboardServiceTests]">
+    <testcase name="testGetPatientList" classname="com.hu.vaccine.service.DashboardServiceTests" time="0.043" displayname="testGetPatientList()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.service.DashboardServiceTests]/[method:testGetPatientList()]"/>
+    <testcase name="testGetPatientListSize" classname="com.hu.vaccine.service.DashboardServiceTests" time="0.006" displayname="testGetPatientListSize()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.service.DashboardServiceTests]/[method:testGetPatientListSize()]"/>
+  </testsuite>
+</testrun>

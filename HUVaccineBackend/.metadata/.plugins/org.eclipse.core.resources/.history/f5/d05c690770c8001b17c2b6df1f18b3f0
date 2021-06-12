@@ -1,0 +1,22 @@
+package com.hu.vaccine.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.hu.vaccine.model.Patient;
+import com.hu.vaccine.repository.PatientRepository;
+import com.hu.vaccine.service.DashboardService;
+
+@Service
+public class DashboardServiceImpl implements DashboardService {
+	
+	@Autowired
+	private PatientRepository patientRepository;
+
+	@Override
+	public void register(Patient patient) {
+		patientRepository.save(patient);
+		
+	}
+	
+}

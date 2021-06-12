@@ -1,0 +1,5 @@
+package com.hu.vaccine.login.dao;
+
+public class LoginRepository {
+
+}

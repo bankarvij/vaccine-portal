@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DashboardServiceTests" project="vaccine" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.hu.vaccine.service.DashboardServiceTests" time="0.072" displayname="DashboardServiceTests" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.service.DashboardServiceTests]">
+    <testcase name="testGetPatientList" classname="com.hu.vaccine.service.DashboardServiceTests" time="0.045" displayname="testGetPatientList()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.service.DashboardServiceTests]/[method:testGetPatientList()]"/>
+    <testcase name="testGetPatientListSize" classname="com.hu.vaccine.service.DashboardServiceTests" time="0.005" displayname="testGetPatientListSize()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.service.DashboardServiceTests]/[method:testGetPatientListSize()]"/>
+    <testcase name="testRegister" classname="com.hu.vaccine.service.DashboardServiceTests" time="0.007" displayname="testRegister()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.service.DashboardServiceTests]/[method:testRegister()]"/>
+    <testcase name="testUpdate" classname="com.hu.vaccine.service.DashboardServiceTests" time="0.013" displayname="testUpdate()" uniqueid="[engine:junit-jupiter]/[class:com.hu.vaccine.service.DashboardServiceTests]/[method:testUpdate()]"/>
+  </testsuite>
+</testrun>
